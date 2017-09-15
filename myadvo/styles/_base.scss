@@ -1,0 +1,41 @@
+$base-margin: 0;
+$base-padding: 0;
+$base-font-size: 12px;
+$base-back-color: #f9f9f9;
+$base-font-family: Arial, Helvetica, sans-serif;
+$base-nav-padding:53px;
+$base-list-style: none;
+$table-head-backcolor:#000;
+$table-head-color:#fff;
+$table-head-font-weight: lighter;
+$space-height: 1em;
+
+html *{
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+}
+
+body{
+    background: $base-back-color;
+    padding-top: $base-nav-padding;
+}
+
+ul,
+li{
+	margin: $base-margin;
+	padding: $base-padding;
+	list-style: $base-list-style;
+}
+
+table {
+	th {
+		background-color: $table-head-backcolor;
+		color: $table-head-color;
+		font-weight: $table-head-font-weight;
+	}
+}
+
+.space {
+    height: $space-height;
+	display: block;
+}

@@ -1,0 +1,88 @@
+@import 'base';
+
+$date-color: #FF7266;
+$tile-background: #DCDCDC;
+$tile-color: #A9A9A9;
+$tile-style: solid;
+$description-font-size:11px;
+$description-font-weight:lighter;
+$icon-size: 20px;
+
+@each $padding in 0, 5, 10 {  
+  .padding-#{$padding} {  
+    padding: #{$padding}px;  
+  }  
+}  
+
+.white-background{
+	background: #fff;	
+}
+
+.client-list {
+	li {
+		padding: 5px;
+		border-bottom: 1px $tile-style $tile-color;
+		&:hover {
+			cursor: pointer;
+			background: $tile-background;
+			border-bottom: 2px $tile-style $tile-color;
+			border-right: 1px $tile-style $tile-color;
+		}
+	}
+}
+
+.client-list-desc{
+font-size: $description-font-size;
+font-weight: $description-font-weight;
+color: $tile-color;
+}
+.client-list-date{
+	color: $date-color;
+}
+
+
+
+.f1
+{
+	font-size: $icon-size;
+}
+.no-padding{
+    padding-left: 0;
+	padding-right: 0;
+}
+.no-margin{
+	margin: 0;
+}
+
+.nav-tabs li a{
+	padding: 5px 5px 5px 5px ;
+	color: black
+}
+
+.green
+{
+	color:#00FF00;
+}
+
+.red
+{
+	color:#FF0000;
+}
+.skyblue
+{
+	color:#87ceeb;
+}
+
+.text-center-align{
+	text-align: center;
+}
+
+.padding-left-60{
+	padding-left: 60px;
+}
+
+.last-menu {
+  left:0;
+  bottom: 50px;
+  position: fixed !important;
+  height: 50px; }

@@ -1,0 +1,88 @@
+html * {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+
+body {
+  background: #f9f9f9;
+  padding-top: 53px; }
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+table th {
+  background-color: #000;
+  color: #fff;
+  font-weight: lighter; }
+
+.space {
+  height: 1em;
+  display: block; }
+
+.padding-0 {
+  padding: 0px; }
+
+.padding-5 {
+  padding: 5px; }
+
+.padding-10 {
+  padding: 10px; }
+
+.white-background {
+  background: #fff; }
+
+.client-list li {
+  padding: 5px;
+  border-bottom: 1px solid #A9A9A9; }
+  .client-list li:hover {
+    cursor: pointer;
+    background: #DCDCDC;
+    border-bottom: 2px solid #A9A9A9;
+    border-right: 1px solid #A9A9A9; }
+
+.client-list-desc {
+  font-size: 11px;
+  font-weight: lighter;
+  color: #A9A9A9; }
+
+.client-list-date {
+  color: #FF7266; }
+
+.f1 {
+  font-size: 20px; }
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0; }
+
+.no-margin {
+  margin: 0; }
+
+.nav-tabs li a {
+  padding: 5px 5px 5px 5px;
+  color: black; }
+
+.green {
+  color: #00FF00; }
+
+.red {
+  color: #FF0000; }
+
+.skyblue {
+  color: #87ceeb; }
+
+.text-center-align {
+  text-align: center; }
+
+.padding-left-60 {
+  padding-left: 60px; }
+
+.last-menu {
+  left: 0;
+  bottom: 50px;
+  position: fixed !important;
+  height: 50px; }
+
+/*# sourceMappingURL=myadvo.css.map */
